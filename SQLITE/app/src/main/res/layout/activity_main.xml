@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:id="@+id/layout1">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit1"
+            android:background="@drawable/inputbox"
+            android:hint="enter id"
+            android:gravity="center"
+            android:minLines="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit2"
+            android:background="@drawable/inputbox"
+            android:hint="enter username"
+            android:gravity="center"
+            android:minLines="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit3"
+            android:background="@drawable/inputbox"
+            android:hint="enter phone number"
+            android:gravity="center"
+            android:minLines="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:padding="20sp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="insert"
+            android:gravity="center"
+            android:id="@+id/button1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="22dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="update"
+            android:gravity="center"
+            android:id="@+id/button2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="delete"
+            android:gravity="center"
+            android:id="@+id/button3"/>
+    </LinearLayout>
+
+</LinearLayout>
